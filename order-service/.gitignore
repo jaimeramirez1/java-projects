@@ -5,6 +5,13 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+/build/
+/.gradle/
+/out/
+/target/gitignire
+*.log
+.idea/
+
 ### STS ###
 .apt_generated
 .classpath
