@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: order-service
+  data:
+    mongodb:
+      uri: mongodb://root:example@localhost:27017/ordersdb?authSource=admin
+  redis:
+    host: localhost
+    port: 6379
+  kafka:
+    bootstrap-servers: localhost:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+  health:
+    mongo:
+      enabled: true
+    redis:
+      enabled: true
+
+server:
+  port: 8080
