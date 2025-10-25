@@ -78,8 +78,9 @@ order-service/
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/order-service.git
-cd order-service
+git clone https://github.com/jaimeramirez1/java-projects.git
+cd java-projects/order-service
+
 ```
 
 ### 2. Iniciar todos los servicios
